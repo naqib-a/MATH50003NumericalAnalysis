@@ -35,6 +35,9 @@ notebook("src/notes/II.7.ConditionNumbers.jmd"; nkwds...)
 notebook("src/notes/III.1.Fourier.jmd"; nkwds...)
 notebook("src/notes/III.2.DFT.jmd"; nkwds...)
 notebook("src/notes/III.3.OrthogonalPolynomials.jmd"; nkwds...)
+notebook("src/notes/III.4.ClassicalOPs.jmd"; nkwds...)
+notebook("src/notes/III.5.Interpolation.jmd"; nkwds...)
+notebook("src/notes/III.6.Quadrature.jmd"; nkwds...)
 
 
 
@@ -87,6 +90,9 @@ notebook("src/sheets/sheet7s.jmd"; pkwds...)
 write("src/sheets/sheet8.jmd", replace(read("src/sheets/sheet8s.jmd", String), r"\*\*SOLUTION\*\*(.*?)\*\*END\*\*"s => ""))
 notebook("src/sheets/sheet8.jmd"; pkwds...)
 notebook("src/sheets/sheet8s.jmd"; pkwds...)
+write("src/sheets/sheet9.jmd", replace(read("src/sheets/sheet9s.jmd", String), r"\*\*SOLUTION\*\*(.*?)\*\*END\*\*"s => ""))
+notebook("src/sheets/sheet9.jmd"; pkwds...)
+notebook("src/sheets/sheet9s.jmd"; pkwds...)
 
 
 #####

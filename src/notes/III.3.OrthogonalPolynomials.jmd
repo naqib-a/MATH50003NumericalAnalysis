@@ -27,7 +27,7 @@ complex analysis, and random matrix theory.
 
 1. General properties: we define orthogonal polynomials
 2. Three-term recurrences
-3. Jacobi magtrices
+3. Jacobi matrices
 
 
 **Remark (advanced)** Going beyond what we discuss here are many other beautiful properties of orthogonal 
@@ -43,7 +43,7 @@ generating functions, etc.
 A set of polynomials $\{p_0(x), p_1(x), … \}$ is _graded_ if $p_n$ is
 precisely degree $n$: i.e.,
 $$
-p_n(x) = k_n x^n + k_n^{(n-1)} x^{n-1} + ⋯ + k_n^{(1)} x + k_n^{(0)}
+p_n(x) = k_n x^n + k_n^{(1)} x^{n-1} + ⋯ + k_n^{(n-1)} x + k_n^{(n)}
 $$
 for $k_n ≠ 0$.
 
@@ -161,9 +161,9 @@ p(x) = k_n x^n + O(x^{n-1})
 $$ 
 with $k_n ≠ 0$ satisfies
 $$
-⟨p,r⟩ = 0
+⟨p,f_m⟩ = 0
 $$
-for all degree $m < n$ polynomials $r$ if and only if
+for all  polynomials $f_m$ of degree $m < n$ if and only if
 $p(x) = k_n π_n(x)$ where $π_n(x)$ are the monic orthogonal polynomials.
 Therefore an orthogonal polynomial is uniquely
 defined by the weight and leading order coefficient $k_n$.
@@ -234,7 +234,7 @@ $$
 We can construct these using Gram–Schmidt, but exploiting the 3-term recurrence to reduce the computational cost.
 We have $π_0(x) = 1$, which we see is orthogonal:
 $$
-\|π_0\|^2 = ⟨π_0,π_0⟩ = ∫_0^1 {\rm d x} = 1.
+\|π_0\|^2 = ⟨π_0,π_0⟩ = ∫_0^1 {\rm d} x = 1.
 $$
 We know from the 3-term recurrence that
 $$
@@ -285,7 +285,7 @@ $$
 The three-term recurrence can also be interpreted as a matrix known
 as the Jacobi matrix:
 
-**Corollary 4 (Jacobi matrix)**
+**Corollary 5 (Jacobi matrix)**
 For
 $$
 P(x) := [p_0(x) | p_1(x) | ⋯]
@@ -306,7 +306,7 @@ The Jacobi matrix is $J := X^⊤$.
 
 For the special cases of orthonormal and monic polynomials we have extra structure:
 
-**Corollary 4 (orthonormal 3-term recurrence)** If
+**Corollary 6 (orthonormal 3-term recurrence)** If
 $\{q_n\}$ are orthonormal then its recurrence coefficients satisfy $c_n = b_n$.
 That is, the Jacobi matrix is symmetric:
 $$
