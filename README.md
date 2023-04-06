@@ -49,13 +49,13 @@ their properties including three-term recurrences and Jacobi matrices.
 6. [Gaussian Quadrature](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/III.6.Quadrature.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/III.6.Quadrature.pdf)): a powerful quadrature rule comes from diagonalising truncations of Jacobi matrices, which is exact for polynomials twice the degree expected.
 
 
-**Non-examinable material**: I.3 Example 1/2, II.2 Definition 7/Lemma 2, II.3.2, II.3 Example 2, II.4.1, II.4.2
+**Non-examinable material**: I.3 Example 1/2, II.2 Definition 7/Lemma 2, II.3.2, II.3 Example 2, II.4.1, II.4.2, III.2.3
 
 ## Assessment
 
 1. [Practice computer-based exam](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/practice.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/practices.ipynb))
 2. [2021–22 Computer-based exam](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/computerexam2122.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/computerexam2122s.ipynb))
-3. Computer-based exam: 12:00 17 March 2023 (1 hour in-person exam with 15 minutes to read/download before and 15 minutes to upload after. You may use your own machine.)
+2. [2022–23 Computer-based exam](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/computerexam2223.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/computerexam2223s.ipynb))
 3. [Practice final exam](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/practicefinal.pdf)
 3. Final exam (pen-and-paper): TBA
 
@@ -71,9 +71,9 @@ their properties including three-term recurrences and Jacobi matrices.
 ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet6s.ipynb))
 7. [SVD and Condition Numbers](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet7.ipynb)
 ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet7s.ipynb))
-8. [Fourier Expansions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet8.ipynb)
-9. [Orthogonal Polynomials](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet9.ipynb)
-
+8. [Fourier Expansions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet8.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet8s.ipynb))
+9. [Orthogonal Polynomials](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet9.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet9s.ipynb))
+10. [Quadrature](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet10.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet10s.ipynb))
 
 
 
