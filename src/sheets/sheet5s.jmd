@@ -12,7 +12,7 @@ $$
 Use reflections to determine the entries of orthogonal/unitary matrices $Q_1, Q_2, Q_3$ such that
 $$
 Q_1 𝐚 = \begin{bmatrix} 3 \\ 0 \\ 0 \end{bmatrix}, Q_2 𝐚 = \begin{bmatrix} -3 \\ 0 \\ 0 \end{bmatrix},
-Q_3 𝐛 = \begin{bmatrix} \sqrt{3} \\ 0 \\ 0 \end{bmatrix}
+Q_3 𝐛 = \begin{bmatrix} 3 \\ 0 \\ 0 \end{bmatrix}
 $$
 
 **SOLUTION**
@@ -130,7 +130,7 @@ We first show for $m < n$ that a QR decomposition exists. Writing
 $$
 A = [𝐚_1 | ⋯ | 𝐚_n]
 $$
-and let $A = [𝐚_1 | ⋯ | 𝐚_m] = Q R_m$. It follows that $R := Q^⋆ A$ is right-triangular.
+and taking the first $m$ columns (so that it is square) we can write $[𝐚_1 | ⋯ | 𝐚_m] = Q R_m$. It follows that $R := Q^⋆ A$ is right-triangular.
 
 We can write:
 $$
